@@ -1,26 +1,28 @@
 name: fanjiaoqingyi
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 1/6 * * *'
-jobs:  # 31392
+    - cron: '3 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fanjiaoqingyi
         env:
-          fuufy34733: ${{ secrets.fuufy34733 }}
+          muew428: ${{ secrets.muew428 }}
         run: |
-          echo $fuufy34733 | jq -r .nvwwv2 | /bin/bash
-          echo $s51 | jq -r .rji7405 | /bin/bash
-          echo $io0 | jq -r .sqcl77 | /bin/bash
-          echo $bd96265 | jq -r .dzr89 | /bin/bash
-          echo $spex5828 | jq -r .vcfqv2671 | /bin/bash
-          echo $px32 | jq -r .t0389 | /bin/bash
-          echo $ffaeb3 | jq -r .doy46610 | /bin/bash
-          echo $tmtp078 | jq -r .y637 | /bin/bash
-          echo $cxdpc6 | jq -r .h334 | /bin/bash
-          echo $omh0 | jq -r .n551 | /bin/bash
+          echo $muew428 | jq -r .vscoz1 | /bin/bash
+          echo $dv8384 | jq -r .qlb43363 | /bin/bash
+          echo $o28403 | jq -r .ycb483 | /bin/bash
+          echo $gepa0654 | jq -r .kiird5805 | /bin/bash
+          echo $znnv9780 | jq -r .okhw179 | /bin/bash
+          echo $iwrf0 | jq -r .yigva2120 | /bin/bash
+          echo $fgwvb367 | jq -r .emqfq71 | /bin/bash
+          echo $ypnmr26 | jq -r .qd2345 | /bin/bash
+          echo $fmnvp3 | jq -r .l73690 | /bin/bash
+          echo $jx2 | jq -r .ejqw55744 | /bin/bash
+          echo $eycv5 | jq -r .aytjp895 | /bin/bash
 
