@@ -3,8 +3,7 @@ name: fanjiaoqingyi
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 3/6 * * *'
-
+    - cron: '21 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,17 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: fanjiaoqingyi
         env:
-          muew428: ${{ secrets.muew428 }}
+          oen73: ${{ secrets.oen73 }}
         run: |
-          echo $muew428 | jq -r .vscoz1 | /bin/bash
-          echo $dv8384 | jq -r .qlb43363 | /bin/bash
-          echo $o28403 | jq -r .ycb483 | /bin/bash
-          echo $gepa0654 | jq -r .kiird5805 | /bin/bash
-          echo $znnv9780 | jq -r .okhw179 | /bin/bash
-          echo $iwrf0 | jq -r .yigva2120 | /bin/bash
-          echo $fgwvb367 | jq -r .emqfq71 | /bin/bash
-          echo $ypnmr26 | jq -r .qd2345 | /bin/bash
-          echo $fmnvp3 | jq -r .l73690 | /bin/bash
-          echo $jx2 | jq -r .ejqw55744 | /bin/bash
-          echo $eycv5 | jq -r .aytjp895 | /bin/bash
+          echo $oen73 | jq -r .pv18186 | /bin/bash
+          echo $lle8 | jq -r .stwg58 | /bin/bash
+          echo $cpco35412 | jq -r .tcjk3 | /bin/bash
+          echo $pacl07803 | jq -r .cs15 | /bin/bash
+          echo $uoyw914 | jq -r .rpph1414 | /bin/bash
+          echo $mf71761 | jq -r .zezzv32 | /bin/bash
+          echo $ga83 | jq -r .q21746 | /bin/bash
+          echo $pooay03 | jq -r .gnpq989 | /bin/bash
+          echo $jtf13 | jq -r .qc153 | /bin/bash
+          echo $ftu413 | jq -r .qsjn0928 | /bin/bash
 
